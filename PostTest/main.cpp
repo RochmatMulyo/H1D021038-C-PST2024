@@ -7,7 +7,7 @@ int SCL_pin = D3;
 int red = D5;
 int green = D7;
 
-
+//inisialisasi pin LED dan LCD nya
 void setup() {
  Wire.begin(SDA_pin, SCL_pin);
  lcd.init();
