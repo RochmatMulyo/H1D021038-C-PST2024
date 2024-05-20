@@ -1,8 +1,7 @@
 1. untuk membuat program dengan LCD memerlukan library bernama LiquidCrystal. 
     Dimulai dengan inisialisasi pin SDA dan pin, inisialisasi lcd dan backlight nya. kemudian pada void loop set cursornya dengan nilai 0,0 untuk menampilkan text pada baris pertama
     cursor 0,1 untuk baris kedua.
-2. Servo bekerja dengan cara menerima input digital dari sistem sendiri maupun input luaran dari sensor yang diubah menjadi input digital.
-    Servo dapat bergerak 90, 180, maupun 360 derajat. 
+2. LED, cara kerjanya menerima input digital, jika inputan HIGH maka LED menyala, dan jika inputan LOW maka LED mati.
 3. ATM, Mesin karcis parkir, mesin pengambil antrian rs, pintu otomatis, lampu termal 
 4. IOT alarm pintu, menggunankan nodeMCU, buzzer, sensor magnetik, dan LED dengan bantuan aplikasi Blynk.
     Ketika pintu terbuka, buzzer akan berbunyi, LED menyala dan akan menampilkan pesan bahwa pintu terbuka pada aplikasi blynk. Jika pintu tertutup, buzzer akan berhenti berbunyi,
